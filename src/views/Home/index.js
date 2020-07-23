@@ -1,10 +1,12 @@
 import React from 'react';
 import {SafeAreaView, Text} from 'react-native';
 
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+
 const Home = () => {
   return (
     <SafeAreaView>
-      <Text>Home</Text>
+      <Icon name="alert" />
     </SafeAreaView>
   );
 };

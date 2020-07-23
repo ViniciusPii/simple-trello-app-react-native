@@ -1,12 +1,18 @@
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {SafeAreaView} from 'react-native';
 
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import {Icon} from 'react-native-elements';
 
 const Home = () => {
   return (
     <SafeAreaView>
-      <Icon name="alert" />
+      <Icon
+        raised
+        name="heartbeat"
+        type="font-awesome"
+        color="#f50"
+        onPress={() => console.log('hello')}
+      />
     </SafeAreaView>
   );
 };
